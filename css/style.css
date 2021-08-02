@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Jokerman";
+    src: url(../fonts/Jokerman-Regular.ttf);
+}
+
+.orange{
+    color: #27829C;
+}
+
+body{
+    background-image:url(../images/point.png);
+}
+
+.cap{
+    text-transform:uppercase
+    
+}
+
+.display {
+    display: none;
+}
+
+.atitre
+    {text-decoration: none;}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #27829C;
+}
+.titre{
+    text-decoration: none;
+    font-family: Jokerman;
+    font-size: 2em;
+    color: #87bb34;
+}
+
+/* scan */
+
+.blocs{
+    background-color: #87bb34b2;
+    border-radius: px;
+
+}
+.scanner{
+    background-color: #E89B51;
+    color: white;
+    border-radius: 10px;
+    border:  none;
+    padding: 2% 10%;
+}
+
+
+/* PRODUIT */
+
+h2{
+    color: white;
+}
+.produit{
+    max-height: 370px ;
+}
+
+#productimg{
+    height: 100%;
+
+}
+
+.imgbox{
+    overflow: hidden;
+}
+
+.infoss{
+    height: 100%;
+}
+#infos{
+    overflow: hidden;
+}
+
+/*Ingredients*/
+.ingredientli{
+    text-transform: capitalize;   
+}
+
+.ing{
+    height: 100%;
+}
+
+.ingbox{
+    overflow: hidden;
+}
+
+/* informations images*/
+
+
+.warning{
+    padding: 2%;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5%;
+    max-height: 45px;
+}
+
+.nutri{
+    max-height: 186px;
+}
+
+/* ALLERGENE*/
+
+
+/* FOOTER */
+.footer {
+background-color: #27829C;
+text-align: center;
+color: white;
+font-size: 0.8em;
+padding: 4%;
+
+}
+
+
+@media  screen and (min-width:768px) {
+    .liste li{
+        font-size: 1.2em;
+    }
+    .cap {
+        font-size: 2em;
+    }
+
+    .scanner{
+        padding: 1% 5%;
+    }
+}
+
+@media  screen and (min-width:1024px) {
+   p{
+       font-size: 1.2em;
+   }
+
+   .navflex{
+       display: flex;
+       justify-content: space-between;
+   }
+   .titre{
+       font-size: 3em;
+       margin-left: 1%;
+      
+   }
+
+   .liste li{
+    font-size: 1.3em;
+}
+   .cap {
+    font-size: 2.5em;
+}
+
+    .warning{
+        max-height: 50px;
+    }
+    .nutri{
+        max-height: 200px;
+    }
+}
+
+@media  screen and (min-width:1440px) {
+    .titre{
+        font-size: 3.5em;
+    }
+    .nav-link{
+        font-size :1.5em;
+    }
+
+    .infostitre{
+        font-size: 2.2em;
+    }
+
+}
